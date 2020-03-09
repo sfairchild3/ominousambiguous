@@ -1,0 +1,64 @@
+body {
+	background-color: #000000;
+	z-index: -1;
+}
+
+content {
+	background-color: transparent;
+	z-index: 1;
+}
+
+
+h1 {
+	color: #fff;
+	background-color: #000000;
+	border-color: #000000;
+	/*	font-family: 'Amatic SC', cursive !important;*/
+	font-family: 'Special Elite', cursive;
+	padding-top: 25px;
+	padding-left: 35px;
+	width: 50%;
+}
+
+h3 {
+	color: white;
+	font-family: 'Amatic SC', cursive;
+	/*	font-family: 'Special Elite', cursive;*/
+}
+
+p,
+h4,
+li,
+a {
+	font-family: 'Special Elite', cursive;
+}
+
+footer {
+	padding-top: 25px;
+	text-align: center;
+}
+
+#words {
+	padding-top: 150px;
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.fixbottom {
+	position: fixed;
+	bottom: 0px;
+	left: 30%;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+	bottom: 0px;
+	left: 30%;
+	z-index: 2;
+}
